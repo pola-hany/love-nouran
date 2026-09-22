@@ -10131,16 +10131,16 @@ const yo = {
     pola: {
         name: "Nouran",
         senderName: "Pola",
-        envelopeImage: "/images/envelope-nouran.png",
-        birthdayImage: "/images/birthday-nouran.png",
+        envelopeImage: "images/envelope-nouran.png",
+        birthdayImage: "images/birthday-nouran.png",
         accentColor: "#9ca3af",
         musicUrl: "",
         passcode: "2020",
-        photos: ["/images/pic1.jpg", "/images/pic2.jpg", "/images/pic3.jpg", "/images/pic4.jpg"],
+        photos: ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "images/pic4.jpg"],
         songTitle: "Our Special Song",
         songArtist: "For Nouran",
-        songCover: "/images/pic5.jpg",
-        songSrc: "/audio/song.mp3",
+        songCover: "images/pic5.jpg",
+        songSrc: "audio/song.mp3",
         message: `Hey Nouran,
 
 I'm not gonna sugarcoat this. I messed up. I know it, and you know it. No excuses, no explanations. What I did was wrong, and I'm sorry.
@@ -10688,11 +10688,11 @@ function Mh({data: e}) {
       , [_,R] = L.useState(80)
       , N = L.useRef(null)
       , [I,K] = L.useState(0)
-      , B = e.photos && e.photos.length > 0 ? e.photos : ["/images/pic1.jpg", "/images/pic2.jpg", "/images/pic3.jpg", "/images/pic4.jpg"]
+      , B = e.photos && e.photos.length > 0 ? e.photos : ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "images/pic4.jpg"]
       , he = e.songTitle || "Our Special Song"
       , lt = e.songArtist || "For You"
-      , ot = e.songCover || "/images/pic5.jpg"
-      , $t = e.songSrc || "/audio/song.mp3";
+      , ot = e.songCover || "images/pic5.jpg"
+      , $t = e.songSrc || "audio/song.mp3";
     L.useEffect( () => {
         const P = setTimeout( () => t(!1), 1e3);
         return () => clearTimeout(P)
