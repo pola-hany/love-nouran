@@ -10886,7 +10886,7 @@ function Mh({data: e}) {
                 }), g.jsx("div", {
                     className: "svg-container",
                     children: g.jsx("img", {
-                        src: "/images/bear-ask.jpg",
+                        src: "images/bear-ask.jpg",
                         alt: "Question",
                         style: {
                             width: "100%",
