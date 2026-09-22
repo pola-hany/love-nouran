@@ -11296,9 +11296,8 @@ function ef() {
     })
 }
 function zs() {
-    const {id: e} = ch()
-      , t = (e || "pola").toLowerCase()
-      , n = e ? yo[t] : yo.pola || Object.values(yo)[0];
+    const t = "pola"
+      , n = yo.pola;
     return L.useEffect( () => {
         n ? document.title = `for you ${n.name}!` : document.title = "Gift Not Found"
     }
@@ -11322,7 +11321,5 @@ function $h() {
     })
 }
 go.createRoot(document.getElementById("root")).render(g.jsx(Vs.StrictMode, {
-    children: g.jsx(jh, {
-        children: g.jsx($h, {})
-    })
+    children: g.jsx(zs, {})
 }));
