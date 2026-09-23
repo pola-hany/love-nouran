@@ -10135,7 +10135,7 @@ const yo = {
         birthdayImage: "images/birthday-nouran.png",
         accentColor: "#9ca3af",
         musicUrl: "",
-        passcode: "2020",
+        passcode: "2022",
         photos: ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "images/pic4.jpg"],
         songTitle: "Our Special Song",
         songArtist: "For Nouran",
@@ -10722,7 +10722,7 @@ function Mh({data: e}) {
     , [w])
       , yt = P => {
         P.preventDefault();
-        const M = (e.passcode || "2020").trim().replace(/[-/\s]/g, "");
+        const M = (e.passcode || "2022").trim().replace(/[-/\s]/g, "");
         if (i.trim().replace(/[-/\s]/g, "") === M) {
             c(!1);
             try {
